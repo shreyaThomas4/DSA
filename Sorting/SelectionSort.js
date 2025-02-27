@@ -10,7 +10,7 @@ const selectionSort = () => {
       }
     }
     if (i !== min) {
-        // this swaping can be done using temp variable as well
+        // this swaping can be done using temp variable as wel
       [arr[i], arr[min]] = [arr[min], arr[i]];
     }
   }
